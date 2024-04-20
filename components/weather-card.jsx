@@ -7,8 +7,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import Image from "next/image";
-
 const WeatherCard = ({ weatherData }) => {
   return (
     <Card>
@@ -25,11 +23,9 @@ const WeatherCard = ({ weatherData }) => {
       </CardContent>
       <CardFooter>
         <p>{weatherData.current.condition.text}</p>
-        <Image
-          src={`https:${weatherData.current.condition.icon}`}
+        <img
+          src={`${weatherData.current.condition.icon}`}
           alt="weather condition icon"
-          width={64}
-          height={64}
         />
       </CardFooter>
     </Card>
