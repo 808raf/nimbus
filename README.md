@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nimbus
 
-## Getting Started
+Nimbus is a simple yet powerful web application for checking the weather forecast by typing in a location. This repository contains the source code for Nimbus.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the live demo [here](https://courageous-rabanadas-9607be.netlify.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Get current weather conditions and forecast for any location
+- Search for locations by city name or zip code
+- Responsive design for seamless usage on desktop and mobile devices
+- Clean and intuitive user interface for an enjoyable experience
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+Nimbus Weather is built using the following technologies:
 
-To learn more about Next.js, take a look at the following resources:
+- **React**: A JavaScript library for building user interfaces.
+- **Next.js**: A React framework for building server-side rendered and statically generated applications.
+- **JavaScript**: The programming language used for client-side logic.
+- **HTML**: The standard markup language for creating web pages.
+- **CSS**: The style sheet language used for describing the presentation of HTML documents.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **Shadcn**: A custom component library for adding stylish shadows and depth to elements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Nimbus Weather utilizes the [WeatherAPI](https://www.weatherapi.com/) to fetch weather data for different locations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To run Nimbus Weather locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone this repository: `git clone https://github.com/808raf/nimbus.git`
+2. Navigate to the project directory: `cd nimbus`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
